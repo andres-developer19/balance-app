@@ -8,12 +8,18 @@ import IncomeExpenses from "./componentes/IncomeExpenses"
 
 function App() {
   return (
-    <GlobalProvider>
-    <Header />
-    <IncomeExpenses />
-    <Balance />
-    <TransanctionForm />
-    <TransactionList />
+    <GlobalProvider >
+      <div className="bg-zinc-900 text-white h-screen flex justify-center items-center">
+        <div className="bg-zinc-800 p-10 rounded-lg flex">
+          <div>
+          <Header />
+        <IncomeExpenses />
+        <Balance />
+        <TransanctionForm />
+          </div>
+        <TransactionList />
+        </div>
+      </div>
     </GlobalProvider>
   )
 }
