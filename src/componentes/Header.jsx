@@ -1,7 +1,7 @@
 
 function Header() {
     return (
-        <div>Header</div>
+        <div className="text-4xl font-bold mb-5">Expenses Tracker</div>
     )
 }
 
