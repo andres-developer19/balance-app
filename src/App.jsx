@@ -13,7 +13,7 @@ function App() {
       <div className="bg-zinc-900 text-white h-screen flex justify-center items-center">
         <div className="container x-auto w-4/5">
         <div className="bg-zinc-800 p-10 rounded-lg flex gap-x-5">
-          <div className="w-full flex flex-col justify-between">
+          <div className="w-1/2 flex flex-col justify-between">
             <div className="">
             <Header />
             <IncomeExpenses />
@@ -21,7 +21,7 @@ function App() {
             </div>
           <TransanctionForm />
           </div>
-          <div className="flex flex-col">
+          <div className="w-1/2 flex flex-col">
           <ExpenseChart />
           <TransactionList />
           </div>
